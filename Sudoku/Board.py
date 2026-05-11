@@ -14,9 +14,9 @@ class Board:
         self.cells = []
 
         # looping rows
-        for row in range(0, 9):
+        for row in range(0, 10):
             # looping columns
-            for col in range(0, 9):
+            for col in range(0, 10):
                 # calculating box
                 box = 3 * (row // 3) + (col // 3)
 

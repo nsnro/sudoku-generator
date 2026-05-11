@@ -6,7 +6,7 @@ class Cell:
         self.col = col
         self.box = box
 
-        self.value = 0
+        self.value = ""
 
     # returns a string representation of cell (for debugging)
     def __str__(self):

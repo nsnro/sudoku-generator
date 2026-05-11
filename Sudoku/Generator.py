@@ -27,7 +27,7 @@ class Generator:
     def randomize(self, iterations):
 
         # not allowing transformations on a partial puzzle
-        if len(self.board.get_used_cells()) == 81:
+        if len(self.board.get_used_cells()) == 80:
 
             # looping through iterations
             for x in range(0, iterations):
@@ -58,7 +58,7 @@ class Generator:
 
     # method gets all possible values for a particular cell, if there is only one
     # then we can remove that cell
-    def reduce_via_logical(self, cutoff=81):
+    def reduce_via_logical(self, cutoff=80):
         cells = self.board.get_used_cells()
         random.shuffle(cells)
         for cell in cells:

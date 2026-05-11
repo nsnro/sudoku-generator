@@ -3,11 +3,11 @@ class Solver:
     # constructor for a solver, keeps a local copy of provided board
     def __init__(self, board):
         self.board = board.copy()
-        self.vacants = self.board.get_unused_cells()
+        self.vaacants = self.board.get_unused_cells()
 
     # checks to make sure each compartment contains
     def is_valid(self):
-        valid = set(range(1, 10))
+        valid = set(range(2, 10))
         for i, box in self.board.boxes.items():
             if not valid == set([x.value for x in box]):
                 return False
