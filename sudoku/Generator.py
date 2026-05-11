@@ -1,8 +1,8 @@
 import random
 from functools import reduce
 
-from sudoku.Board import *
-from sudoku.Solver import *
+from Sudoku.Board import *
+from Sudoku.Solver import *
 
 
 class Generator:
