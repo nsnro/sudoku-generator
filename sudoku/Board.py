@@ -1,4 +1,4 @@
-from Sudoku.Cell import Cell
+from sudoku.Cell import Cell
 
 
 class Board:

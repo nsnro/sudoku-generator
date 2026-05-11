@@ -1,7 +1,7 @@
 # !/usr/bin/python
 import sys
-from Sudoku.Generator import *
-# Install Sudoku package.
+from sudoku.Generator import *
+# Install sudoku package.
 # setting difficulties and their cutoffs for each solve method
 difficulties = {
     'easy': (35, 0), 
